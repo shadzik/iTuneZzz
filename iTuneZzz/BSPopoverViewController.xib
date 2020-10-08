@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BSPopoverViewController">
+            <connections>
+                <outlet property="hoursTextField" destination="5yX-FK-bdX" id="046-HU-q1V"/>
+                <outlet property="minutesTextField" destination="wu4-KZ-chM" id="79O-SS-Ohx"/>
+                <outlet property="progressView" destination="hmR-Fa-rLn" id="kvz-UY-OxX"/>
+                <outlet property="secondsTextField" destination="dXv-BV-oxS" id="oaG-L3-GVO"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView wantsLayer="YES" appearanceType="aqua" id="Hz6-mo-xeY" userLabel="Set Timer View">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sBg-yp-735">
+                    <rect key="frame" x="91" y="58" width="69" height="32"/>
+                    <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Yrd-eC-Tht">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" size="13" name="HelveticaNeue-Medium"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="startCountdown:" target="-2" id="7X9-Hc-nw9"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5yX-FK-bdX" userLabel="Hours">
+                    <rect key="frame" x="75" y="109" width="27" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="bIs-rS-qVS"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" placeholderString="00" id="VV7-wx-PVV">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" id="f5L-z6-tBC" customClass="BSDecimalNumberFormatter">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="23"/>
+                        </numberFormatter>
+                        <font key="font" size="18" name="HelveticaNeue-Bold"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R3q-NS-7jl" userLabel="h">
+                    <rect key="frame" x="98" y="109" width="12" height="16"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="h" id="bpg-Ys-9Ta">
+                        <font key="font" size="13" name="HelveticaNeue-Bold"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wu4-KZ-chM" userLabel="Minutes">
+                    <rect key="frame" x="112" y="109" width="27" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="VTj-hm-wis"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" placeholderString="00" id="uq1-Dn-4fX">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" id="xGk-WP-ftz" customClass="BSDecimalNumberFormatter">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="59"/>
+                        </numberFormatter>
+                        <font key="font" size="18" name="HelveticaNeue"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wRR-e6-PiN" userLabel="m">
+                    <rect key="frame" x="135" y="109" width="16" height="15"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="m" id="Gxb-cJ-CWM">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dXv-BV-oxS" userLabel="Seconds">
+                    <rect key="frame" x="149" y="109" width="27" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="rKF-Nu-WqE"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" placeholderString="00" id="uQx-e7-EBi">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" id="eER-7X-nHY" customClass="BSDecimalNumberFormatter">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="59"/>
+                        </numberFormatter>
+                        <font key="font" size="18" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="csH-6d-h8a" userLabel="s">
+                    <rect key="frame" x="172" y="109" width="11" height="16"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="s" id="6Ru-mq-SLP">
+                        <font key="font" size="13" name="HelveticaNeue-Thin"/>
+                        <color key="textColor" name="defaultColor"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="5yX-FK-bdX" firstAttribute="baseline" secondItem="wu4-KZ-chM" secondAttribute="baseline" id="0bh-sX-jno"/>
+                <constraint firstAttribute="centerX" secondItem="wu4-KZ-chM" secondAttribute="centerX" id="2AS-2o-5bc"/>
+                <constraint firstAttribute="centerX" secondItem="sBg-yp-735" secondAttribute="centerX" id="2j4-l6-Q9P"/>
+                <constraint firstItem="wu4-KZ-chM" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="5fx-8Z-Wwn"/>
+                <constraint firstItem="wRR-e6-PiN" firstAttribute="leading" secondItem="wu4-KZ-chM" secondAttribute="trailing" id="8KZ-30-B50"/>
+                <constraint firstAttribute="centerY" secondItem="sBg-yp-735" secondAttribute="centerY" id="HEw-U8-oNi"/>
+                <constraint firstItem="dXv-BV-oxS" firstAttribute="baseline" secondItem="wu4-KZ-chM" secondAttribute="baseline" id="LWC-gx-4Zj"/>
+                <constraint firstItem="R3q-NS-7jl" firstAttribute="leading" secondItem="5yX-FK-bdX" secondAttribute="trailing" id="XmX-RX-DzA"/>
+                <constraint firstItem="csH-6d-h8a" firstAttribute="bottom" secondItem="dXv-BV-oxS" secondAttribute="bottom" id="gjC-zT-1eU"/>
+                <constraint firstItem="csH-6d-h8a" firstAttribute="leading" secondItem="dXv-BV-oxS" secondAttribute="trailing" id="ja9-2G-eVe"/>
+                <constraint firstItem="wRR-e6-PiN" firstAttribute="bottom" secondItem="wu4-KZ-chM" secondAttribute="bottom" id="nF7-IR-euI"/>
+                <constraint firstItem="dXv-BV-oxS" firstAttribute="leading" secondItem="wu4-KZ-chM" secondAttribute="trailing" constant="14" id="qPT-hA-P0a"/>
+                <constraint firstItem="5yX-FK-bdX" firstAttribute="bottom" secondItem="R3q-NS-7jl" secondAttribute="bottom" id="qg9-ki-XmL"/>
+                <constraint firstItem="wu4-KZ-chM" firstAttribute="leading" secondItem="5yX-FK-bdX" secondAttribute="trailing" constant="14" id="th5-2J-LpD"/>
+            </constraints>
+            <point key="canvasLocation" x="-153" y="344"/>
+        </customView>
+        <customView id="hmR-Fa-rLn" userLabel="Show Timer View" customClass="JESCircularProgressView">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <point key="canvasLocation" x="-153" y="121"/>
+        </customView>
+    </objects>
+    <resources>
+        <namedColor name="defaultColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

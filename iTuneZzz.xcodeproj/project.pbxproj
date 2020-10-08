@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983347D11951EFC100F88F82 /* BSDecimalNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 983347D01951EFC100F88F82 /* BSDecimalNumberFormatter.m */; };
+		98336D2F1950F09B00DA630A /* NSWindow+Popover.m in Sources */ = {isa = PBXBuildFile; fileRef = 98336D2E1950F09B00DA630A /* NSWindow+Popover.m */; };
+		98451D47216D3DE9003DC588 /* NSImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 98451D46216D3DE9003DC588 /* NSImage+TintColor.m */; };
+		984E003D194B26E300CB2348 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E003C194B26E300CB2348 /* Cocoa.framework */; };
+		984E0047194B26E300CB2348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 984E0045194B26E300CB2348 /* InfoPlist.strings */; };
+		984E0049194B26E400CB2348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E0048194B26E400CB2348 /* main.m */; };
+		984E004D194B26E400CB2348 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 984E004B194B26E400CB2348 /* Credits.rtf */; };
+		984E0050194B26E400CB2348 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E004F194B26E400CB2348 /* BSAppDelegate.m */; };
+		984E0053194B26E400CB2348 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984E0051194B26E400CB2348 /* MainMenu.xib */; };
+		984E0055194B26E400CB2348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984E0054194B26E400CB2348 /* Images.xcassets */; };
+		984E005C194B26E400CB2348 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E005B194B26E400CB2348 /* XCTest.framework */; };
+		984E005D194B26E400CB2348 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984E003C194B26E300CB2348 /* Cocoa.framework */; };
+		984E0065194B26E400CB2348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 984E0063194B26E400CB2348 /* InfoPlist.strings */; };
+		984E0067194B26E400CB2348 /* iTuneZzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E0066194B26E400CB2348 /* iTuneZzzTests.m */; };
+		984E0076194B2CF800CB2348 /* BSMenuBarIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E0075194B2CF800CB2348 /* BSMenuBarIconView.m */; };
+		984E0079194B309500CB2348 /* BSMenuBarIconController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E0078194B309500CB2348 /* BSMenuBarIconController.m */; };
+		984E007D194B382B00CB2348 /* BSPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E007B194B382B00CB2348 /* BSPopoverViewController.m */; };
+		984E007E194B382B00CB2348 /* BSPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984E007C194B382B00CB2348 /* BSPopoverViewController.xib */; };
+		98F0A1481958BBCE005A9569 /* JESCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F0A1471958BBCE005A9569 /* JESCircularProgressView.m */; };
+		98F0A14D1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F0A14C1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		984E005E194B26E400CB2348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 984E0031194B26E300CB2348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984E0038194B26E300CB2348;
+			remoteInfo = iTuneZzz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983347CF1951EFC100F88F82 /* BSDecimalNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDecimalNumberFormatter.h; sourceTree = "<group>"; };
+		983347D01951EFC100F88F82 /* BSDecimalNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDecimalNumberFormatter.m; sourceTree = "<group>"; };
+		98336D2D1950F09B00DA630A /* NSWindow+Popover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Popover.h"; sourceTree = "<group>"; };
+		98336D2E1950F09B00DA630A /* NSWindow+Popover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Popover.m"; sourceTree = "<group>"; };
+		98451D45216D3DE9003DC588 /* NSImage+TintColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+TintColor.h"; sourceTree = "<group>"; };
+		98451D46216D3DE9003DC588 /* NSImage+TintColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+TintColor.m"; sourceTree = "<group>"; };
+		984E0039194B26E300CB2348 /* iTuneZzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTuneZzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		984E003C194B26E300CB2348 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		984E003F194B26E300CB2348 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		984E0040194B26E300CB2348 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		984E0041194B26E300CB2348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		984E0044194B26E300CB2348 /* iTuneZzz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTuneZzz-Info.plist"; sourceTree = "<group>"; };
+		984E0046194B26E300CB2348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		984E0048194B26E400CB2348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		984E004A194B26E400CB2348 /* iTuneZzz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTuneZzz-Prefix.pch"; sourceTree = "<group>"; };
+		984E004C194B26E400CB2348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		984E004E194B26E400CB2348 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		984E004F194B26E400CB2348 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		984E0052194B26E400CB2348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		984E0054194B26E400CB2348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		984E005A194B26E400CB2348 /* iTuneZzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTuneZzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		984E005B194B26E400CB2348 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		984E0062194B26E400CB2348 /* iTuneZzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTuneZzzTests-Info.plist"; sourceTree = "<group>"; };
+		984E0064194B26E400CB2348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		984E0066194B26E400CB2348 /* iTuneZzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTuneZzzTests.m; sourceTree = "<group>"; };
+		984E0074194B2CF800CB2348 /* BSMenuBarIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMenuBarIconView.h; sourceTree = "<group>"; };
+		984E0075194B2CF800CB2348 /* BSMenuBarIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMenuBarIconView.m; sourceTree = "<group>"; };
+		984E0077194B309500CB2348 /* BSMenuBarIconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMenuBarIconController.h; sourceTree = "<group>"; };
+		984E0078194B309500CB2348 /* BSMenuBarIconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMenuBarIconController.m; sourceTree = "<group>"; };
+		984E007A194B382B00CB2348 /* BSPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPopoverViewController.h; sourceTree = "<group>"; };
+		984E007B194B382B00CB2348 /* BSPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPopoverViewController.m; sourceTree = "<group>"; };
+		984E007C194B382B00CB2348 /* BSPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSPopoverViewController.xib; sourceTree = "<group>"; };
+		98E3CE25216EB62A00B3CC13 /* iTuneZzz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iTuneZzz.entitlements; sourceTree = "<group>"; };
+		98E3CE26216EB6C300B3CC13 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iTunes.h; path = ../../../iTunes.h; sourceTree = "<group>"; };
+		98F0A1461958BBCE005A9569 /* JESCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JESCircularProgressView.h; sourceTree = "<group>"; };
+		98F0A1471958BBCE005A9569 /* JESCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JESCircularProgressView.m; sourceTree = "<group>"; };
+		98F0A14B1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		98F0A14C1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		984E0036194B26E300CB2348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E003D194B26E300CB2348 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984E0057194B26E400CB2348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E005D194B26E400CB2348 /* Cocoa.framework in Frameworks */,
+				984E005C194B26E400CB2348 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		984E0030194B26E300CB2348 = {
+			isa = PBXGroup;
+			children = (
+				984E0042194B26E300CB2348 /* iTuneZzz */,
+				984E0060194B26E400CB2348 /* iTuneZzzTests */,
+				984E003B194B26E300CB2348 /* Frameworks */,
+				984E003A194B26E300CB2348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		984E003A194B26E300CB2348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984E0039194B26E300CB2348 /* iTuneZzz.app */,
+				984E005A194B26E400CB2348 /* iTuneZzzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984E003B194B26E300CB2348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984E003C194B26E300CB2348 /* Cocoa.framework */,
+				984E005B194B26E400CB2348 /* XCTest.framework */,
+				984E003E194B26E300CB2348 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		984E003E194B26E300CB2348 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984E003F194B26E300CB2348 /* AppKit.framework */,
+				984E0040194B26E300CB2348 /* CoreData.framework */,
+				984E0041194B26E300CB2348 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		984E0042194B26E300CB2348 /* iTuneZzz */ = {
+			isa = PBXGroup;
+			children = (
+				98E3CE25216EB62A00B3CC13 /* iTuneZzz.entitlements */,
+				98F0A1491958BBF7005A9569 /* Third Party */,
+				98F0A14A1958BC0C005A9569 /* Extensions */,
+				983347CF1951EFC100F88F82 /* BSDecimalNumberFormatter.h */,
+				983347D01951EFC100F88F82 /* BSDecimalNumberFormatter.m */,
+				98336D2D1950F09B00DA630A /* NSWindow+Popover.h */,
+				98336D2E1950F09B00DA630A /* NSWindow+Popover.m */,
+				984E004E194B26E400CB2348 /* BSAppDelegate.h */,
+				984E004F194B26E400CB2348 /* BSAppDelegate.m */,
+				984E0074194B2CF800CB2348 /* BSMenuBarIconView.h */,
+				984E0075194B2CF800CB2348 /* BSMenuBarIconView.m */,
+				984E0077194B309500CB2348 /* BSMenuBarIconController.h */,
+				984E0078194B309500CB2348 /* BSMenuBarIconController.m */,
+				984E007A194B382B00CB2348 /* BSPopoverViewController.h */,
+				984E007B194B382B00CB2348 /* BSPopoverViewController.m */,
+				984E007C194B382B00CB2348 /* BSPopoverViewController.xib */,
+				984E0051194B26E400CB2348 /* MainMenu.xib */,
+				984E0054194B26E400CB2348 /* Images.xcassets */,
+				984E0043194B26E300CB2348 /* Supporting Files */,
+			);
+			path = iTuneZzz;
+			sourceTree = "<group>";
+		};
+		984E0043194B26E300CB2348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984E0044194B26E300CB2348 /* iTuneZzz-Info.plist */,
+				984E0045194B26E300CB2348 /* InfoPlist.strings */,
+				984E0048194B26E400CB2348 /* main.m */,
+				984E004A194B26E400CB2348 /* iTuneZzz-Prefix.pch */,
+				984E004B194B26E400CB2348 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		984E0060194B26E400CB2348 /* iTuneZzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				984E0066194B26E400CB2348 /* iTuneZzzTests.m */,
+				984E0061194B26E400CB2348 /* Supporting Files */,
+			);
+			path = iTuneZzzTests;
+			sourceTree = "<group>";
+		};
+		984E0061194B26E400CB2348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984E0062194B26E400CB2348 /* iTuneZzzTests-Info.plist */,
+				984E0063194B26E400CB2348 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98F0A1491958BBF7005A9569 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				98E3CE26216EB6C300B3CC13 /* iTunes.h */,
+				98F0A1461958BBCE005A9569 /* JESCircularProgressView.h */,
+				98F0A1471958BBCE005A9569 /* JESCircularProgressView.m */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		98F0A14A1958BC0C005A9569 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98F0A14B1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				98F0A14C1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.m */,
+				98451D45216D3DE9003DC588 /* NSImage+TintColor.h */,
+				98451D46216D3DE9003DC588 /* NSImage+TintColor.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		984E0038194B26E300CB2348 /* iTuneZzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984E006A194B26E400CB2348 /* Build configuration list for PBXNativeTarget "iTuneZzz" */;
+			buildPhases = (
+				984E0035194B26E300CB2348 /* Sources */,
+				984E0036194B26E300CB2348 /* Frameworks */,
+				984E0037194B26E300CB2348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTuneZzz;
+			productName = iTuneZzz;
+			productReference = 984E0039194B26E300CB2348 /* iTuneZzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		984E0059194B26E400CB2348 /* iTuneZzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984E006D194B26E400CB2348 /* Build configuration list for PBXNativeTarget "iTuneZzzTests" */;
+			buildPhases = (
+				984E0056194B26E400CB2348 /* Sources */,
+				984E0057194B26E400CB2348 /* Frameworks */,
+				984E0058194B26E400CB2348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				984E005F194B26E400CB2348 /* PBXTargetDependency */,
+			);
+			name = iTuneZzzTests;
+			productName = iTuneZzzTests;
+			productReference = 984E005A194B26E400CB2348 /* iTuneZzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		984E0031194B26E300CB2348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bartosz Świątek";
+				TargetAttributes = {
+					984E0038194B26E300CB2348 = {
+						DevelopmentTeam = YL4C87NTXW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					984E0059194B26E400CB2348 = {
+						TestTargetID = 984E0038194B26E300CB2348;
+					};
+				};
+			};
+			buildConfigurationList = 984E0034194B26E300CB2348 /* Build configuration list for PBXProject "iTuneZzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 984E0030194B26E300CB2348;
+			productRefGroup = 984E003A194B26E300CB2348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				984E0038194B26E300CB2348 /* iTuneZzz */,
+				984E0059194B26E400CB2348 /* iTuneZzzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984E0037194B26E300CB2348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E0047194B26E300CB2348 /* InfoPlist.strings in Resources */,
+				984E0055194B26E400CB2348 /* Images.xcassets in Resources */,
+				984E007E194B382B00CB2348 /* BSPopoverViewController.xib in Resources */,
+				984E004D194B26E400CB2348 /* Credits.rtf in Resources */,
+				984E0053194B26E400CB2348 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984E0058194B26E400CB2348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E0065194B26E400CB2348 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984E0035194B26E300CB2348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F0A14D1958BC17005A9569 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+				983347D11951EFC100F88F82 /* BSDecimalNumberFormatter.m in Sources */,
+				98336D2F1950F09B00DA630A /* NSWindow+Popover.m in Sources */,
+				98451D47216D3DE9003DC588 /* NSImage+TintColor.m in Sources */,
+				984E0079194B309500CB2348 /* BSMenuBarIconController.m in Sources */,
+				98F0A1481958BBCE005A9569 /* JESCircularProgressView.m in Sources */,
+				984E007D194B382B00CB2348 /* BSPopoverViewController.m in Sources */,
+				984E0076194B2CF800CB2348 /* BSMenuBarIconView.m in Sources */,
+				984E0049194B26E400CB2348 /* main.m in Sources */,
+				984E0050194B26E400CB2348 /* BSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984E0056194B26E400CB2348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E0067194B26E400CB2348 /* iTuneZzzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		984E005F194B26E400CB2348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 984E0038194B26E300CB2348 /* iTuneZzz */;
+			targetProxy = 984E005E194B26E400CB2348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		984E0045194B26E300CB2348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E0046194B26E300CB2348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		984E004B194B26E400CB2348 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E004C194B26E400CB2348 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		984E0051194B26E400CB2348 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E0052194B26E400CB2348 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		984E0063194B26E400CB2348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E0064194B26E400CB2348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		984E0068194B26E400CB2348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		984E0069194B26E400CB2348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		984E006B194B26E400CB2348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iTuneZzz/iTuneZzz.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YL4C87NTXW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTuneZzz/iTuneZzz-Prefix.pch";
+				INFOPLIST_FILE = "iTuneZzz/iTuneZzz-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiatek.bartosz.iTuneZzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		984E006C194B26E400CB2348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iTuneZzz/iTuneZzz.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YL4C87NTXW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTuneZzz/iTuneZzz-Prefix.pch";
+				INFOPLIST_FILE = "iTuneZzz/iTuneZzz-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiatek.bartosz.iTuneZzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		984E006E194B26E400CB2348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTuneZzz.app/Contents/MacOS/iTuneZzz";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTuneZzz/iTuneZzz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iTuneZzzTests/iTuneZzzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		984E006F194B26E400CB2348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTuneZzz.app/Contents/MacOS/iTuneZzz";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTuneZzz/iTuneZzz-Prefix.pch";
+				INFOPLIST_FILE = "iTuneZzzTests/iTuneZzzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		984E0034194B26E300CB2348 /* Build configuration list for PBXProject "iTuneZzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984E0068194B26E400CB2348 /* Debug */,
+				984E0069194B26E400CB2348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984E006A194B26E400CB2348 /* Build configuration list for PBXNativeTarget "iTuneZzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984E006B194B26E400CB2348 /* Debug */,
+				984E006C194B26E400CB2348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984E006D194B26E400CB2348 /* Build configuration list for PBXNativeTarget "iTuneZzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984E006E194B26E400CB2348 /* Debug */,
+				984E006F194B26E400CB2348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 984E0031194B26E300CB2348 /* Project object */;
+}
